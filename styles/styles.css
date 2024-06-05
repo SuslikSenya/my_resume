@@ -1,0 +1,350 @@
+:root {
+    --primary-background-color: #353535;
+    --backmain-color: #555555;
+    --backsidebar-color: #202020;
+    --text-color: #000000;
+    --white-color: #ffffff;
+    --orange-color: #FB6D3A;
+    --orange-50-color: #ffcab7;
+    --gray-color: #bbbbbb;
+    --green-color: #5f8868;
+    --p-color: #A8A8A8;
+}
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--primary-background-color);
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+    background: var(--primary-background-color);
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+
+#checkbox {
+    display: none;
+}
+
+.hamburger {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.line {
+    position: absolute;
+    width: 21px;
+    height: 2px;
+    background-color: var(--white-color);
+    border-radius: 3px;
+    transition: transform .25s, opacity .35s;
+}
+
+
+.line--top {
+    transform: translateY(-7px);
+}
+
+.line--bottom {
+    transform: translateY(7px);
+}
+
+
+
+
+#checkbox:checked-.line --top {
+    transform: rotate(45deg);
+}
+
+#checkbox:checked.line-middle {
+    transform: translatex(16px);
+    opacity: 0;
+}
+
+#checkbox:checked-.line--bottom {
+    transform: rotate(-45deg);
+}
+
+
+
+
+
+
+
+
+.Front-End {
+    margin: 102px 342px 40px 88px;
+    width: 400px;
+}
+
+.front {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--white-color);
+    margin-bottom: 19px;
+}
+
+.name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: var(--white-color);
+    margin-bottom: 24px;
+}
+
+.uname {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--gray-color);
+}
+
+.projects {
+    margin: 40px 257px 51px 88px;
+    width: 485px;
+}
+
+.proj {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: var(--orange-color);
+    margin-bottom: 8px;
+}
+
+.number-list {
+    padding: 0px;
+    padding-left: 17px;
+}
+
+.number {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white-color);
+}
+
+.numbcontent {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--gray-color);
+    margin-left: 10px;
+}
+
+.links {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--gray-color);
+    margin: 0;
+    display: inline-block;
+    width: 40%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    vertical-align: top;
+}
+
+.skobka {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white-color);
+
+}
+
+.Work {
+    margin: 51px 217px 16px 88px;
+}
+
+.orgname {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--white-color);
+}
+
+.orgname1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--white-color);
+}
+
+.worke {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: var(--orange-color);
+    margin-bottom: 12px;
+}
+
+.New {
+    margin: 16px 217px 20px 88px;
+}
+
+.LLC {
+    margin: 20px 217px 43px 88px;
+}
+
+.orgname2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--white-color);
+}
+
+.organization {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--orange-50-color);
+
+}
+
+.line {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--white-color);
+}
+
+.list-item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--gray-color);
+
+}
+
+.Education {
+    margin: 43px 415px 107px 88px;
+    width: 335px;
+}
+
+.educ {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: var(--orange-color);
+    margin-bottom: 12px;
+}
+
+.experience_link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white-color);
+    margin: 0;
+    text-decoration: underline;
+}
+
+.specialty {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--white-color);
+}
+
+.numb {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--white-color);
+
+}
+
+p {
+    color: var(--p-color);
+}
+
+.photo {
+    padding-top: 40px;
+    width: 306px;
+    height: 424px;
+    left: 40px;
+    top: 80px;
+}
+
+.sidebar {
+    background-color: var(--backsidebar-color);
+}
+
+.contact {
+    margin-top: 51px;
+    margin-left: 40px;
+    color: var(--white-color);
+}
+
+.contact-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--green-color);
+}
+
+.tech {
+    margin-top: 47px;
+    margin-left: 40px;
+    color: var(--white-color);
+
+}
+
+.soft {
+    margin-top: 44px;
+    margin-left: 40px;
+    color: var(--white-color);
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+}
+
+.list {
+    color: var(--white-color);
+    padding-left: 17px;
+}
+
+.item {
+    color: var(--orange-color);
+}
+
+.text {
+    color: var(--white-color);
+}
