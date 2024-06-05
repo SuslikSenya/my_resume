@@ -1,1 +1,3 @@
-# my-resume, check below)
+# my-resume
+- This is a usual page [check by yourself](https://susliksenya.github.io/my_resume/)
+- Will be changing...
